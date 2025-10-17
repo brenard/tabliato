@@ -5,6 +5,7 @@ set -e
 update-mime-database /usr/share/mime || true
 update-desktop-database /usr/share/applications || true
 gtk-update-icon-cache -f /usr/share/icons/hicolor || true
+gtk-update-icon-cache -f /usr/share/icons/Adwaita || true
 
 # --- Register Tabliato as the default app for .dtb files ---
 
